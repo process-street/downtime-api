@@ -15,3 +15,7 @@ curl -I localhost:8000/1/ping # should return 200
 ```
 
 ## Build for Elastic Beanstalk
+
+```
+zip -r maintenance-app.zip . -x .gitignore *.git* *.idea*
+```

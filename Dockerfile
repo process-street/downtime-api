@@ -6,6 +6,5 @@ RUN a2enmod rewrite
 COPY src/ /var/www/html/
 
 EXPOSE 80
-EXPOSE 443
 
 CMD ["apache2-foreground"]
